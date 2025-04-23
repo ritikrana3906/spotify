@@ -1,5 +1,3 @@
-# setup_project.py
-
 import os
 
 folders = [
