@@ -15,7 +15,7 @@ class RecommendRequest(BaseModel):
 @app.get('/list_songs')
 def list_songs(limit: int = 10):
     # Randomly select 5 indices
-    random_indices = random.sample(range(len(recommender.songs)), 5)
+    random_indices = random.sample(range(len(recommender.df)), 5)
     print(f"Random Indices: {random_indices}")  # This will print random indices to the console
     return recommender.list_songs(limit)
 
