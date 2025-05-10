@@ -51,7 +51,7 @@ class SongRecommender:
             return {
                 "track_name": song['track_name'],
                 "artist_name": song['artist_name'],
-                "year": song['year'],
+                # "year": song['year'],
                 "danceability": song['danceability'],
                 "energy": song['energy'],
                 "tempo": song['tempo'],
